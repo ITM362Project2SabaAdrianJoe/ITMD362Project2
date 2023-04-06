@@ -5,6 +5,9 @@
   max-width: 1000px;
   position: relative;
   margin: auto;
+  display: flex;
+  justify-content: center;
+  justify-self: center;
 }
 
 /* Hide the images by default */
@@ -46,6 +49,10 @@
   padding: 8px 12px;
   position: absolute;
   top: 0;
+}
+
+.dot-container {
+  text-align:center
 }
 
 /* The dots/bullets/indicators */
