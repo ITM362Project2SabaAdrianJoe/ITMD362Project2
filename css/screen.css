@@ -10,6 +10,19 @@
   justify-self: center;
 }
 
+nav {
+    width: 20%;
+    position: relative;
+    display: flex;
+    justify-content: right;
+    float: right;
+    white-space: nowrap;
+}
+
+nav ul li {
+    
+}
+
 /* Hide the images by default */
 .mySlides {
   display: none;
