@@ -97,4 +97,5 @@ nav ul li {
 
 body, h1 {
   font-family: 'Merriweather', serif;
+  background: rgba(80, 80, 80, 0.3);
 }
