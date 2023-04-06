@@ -5,6 +5,22 @@
   max-width: 1000px;
   position: relative;
   margin: auto;
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+}
+
+nav {
+    width: 20%;
+    position: relative;
+    display: flex;
+    justify-content: right;
+    float: right;
+    white-space: nowrap;
+}
+
+nav ul li {
+    
 }
 
 /* Hide the images by default */
@@ -48,6 +64,10 @@
   top: 0;
 }
 
+.dot-container {
+  text-align:center
+}
+
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
@@ -74,6 +94,7 @@
   from {opacity: .4}
   to {opacity: 1}
 }
+
 body, h1 {
   font-family: 'Merriweather', serif;
 }
