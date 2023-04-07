@@ -5,6 +5,45 @@
   max-width: 1000px;
   position: relative;
   margin: auto;
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+}
+
+header {
+  background-color: #fff; 
+  padding: 20px;
+  border-bottom: 1px solid #ccc; 
+}
+
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+}
+
+.navigation {
+  list-style: none; 
+  margin: 0; 
+  padding: 0; 
+}
+
+.navigation li {
+  display: inline-block; 
+}
+
+.navigation li a {
+  display: block; 
+  padding: 10px; 
+  text-decoration: none; 
+  color: #333; 
+  font-weight: bold; 
+  text-transform: uppercase; 
+}
+
+.navigation li a:hover {
+  background-color: #eee; /* Add a background color on hover */
 }
 
 /* Hide the images by default */
@@ -48,6 +87,10 @@
   top: 0;
 }
 
+.dot-container {
+  text-align:center
+}
+
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
@@ -74,6 +117,8 @@
   from {opacity: .4}
   to {opacity: 1}
 }
+
 body, h1 {
   font-family: 'Merriweather', serif;
+  background: rgba(80, 80, 80, 0.3);
 }
