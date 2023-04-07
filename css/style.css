@@ -10,17 +10,40 @@
   justify-self: center;
 }
 
-nav {
-    width: 20%;
-    position: relative;
-    display: flex;
-    justify-content: right;
-    float: right;
-    white-space: nowrap;
+header {
+  background-color: #fff; 
+  padding: 20px;
+  border-bottom: 1px solid #ccc; 
 }
 
-nav ul li {
-    
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+}
+
+.navigation {
+  list-style: none; 
+  margin: 0; 
+  padding: 0; 
+}
+
+.navigation li {
+  display: inline-block; 
+}
+
+.navigation li a {
+  display: block; 
+  padding: 10px; 
+  text-decoration: none; 
+  color: #333; 
+  font-weight: bold; 
+  text-transform: uppercase; 
+}
+
+.navigation li a:hover {
+  background-color: #eee; /* Add a background color on hover */
 }
 
 /* Hide the images by default */
