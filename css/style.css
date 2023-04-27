@@ -146,7 +146,7 @@ body, h1, h2 {
   background: rgba(80, 80, 80, 0.3);
 }
 
-@media only screen and (max-width: 1280px) {
+@media only screen and (max-width: 1079px) {
   header {
     margin: 5%;
     padding: 15px;
@@ -232,6 +232,75 @@ body, h1, h2 {
   }
 }
 
-@media only screen and (min-width: 1280px) {
-  
+@media only screen and (min-width: 1080px) {
+  header {
+    margin-right: 5%;
+    padding-right: 10px;
+    border-radius: 20px;
+    justify-self: center;
+    padding-bottom: 2%;
+    width: 25%;
+  }
+
+  header a {
+    margin: 0;
+    padding: 0;
+    justify-self: center;
+  }
+
+  header a img {
+    justify-self: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  h1 {
+    font-size: 225%;
+    padding: 15px;
+    margin: 5%;
+    margin-bottom: 0;
+    margin-right: 0;
+    padding-right: 0;
+    margin-top: 0;
+    border-radius: 20px;
+  }
+
+  nav {
+    margin: 5%;
+    padding: 15px;
+    margin-top: 0;
+    padding-top: 5px;
+    display: flex;
+  }
+
+  nav a {
+    justify-self: center;
+    text-align: center;
+    display: flex;
+    font-size: 130%;
+    width: 100%;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 50px;
+  }
+
+  h2 {
+    font-size: 130%;
+    padding: 8px;
+    margin: 5%;
+    height: 20%;
+    border-radius: 20px;
+    margin-bottom: 0;
+  }
+
+  p {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    font-size: 120%;
+    padding: 10vh;
+    margin: 10px;
+  }
+
 }
