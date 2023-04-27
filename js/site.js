@@ -1,3 +1,4 @@
+// Slideshow
 let slideIndex = 1;
 
 window.onload = function() {
@@ -35,4 +36,15 @@ function showSlides(n) {
 
 function currentSlide(n) {
   showSlides(slideIndex = n);
+}
+
+// form validation
+
+function formValidation() {
+  var confirmation = confirm("Are you sure you want to submit this form?");
+  if (confirmation == true) {
+    return true;
+  } else {
+    return false;
+  }
 }
