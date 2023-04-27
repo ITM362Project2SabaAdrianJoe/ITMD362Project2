@@ -236,7 +236,7 @@ input[type="submit"] {
 fieldset {
 	background-color: #43A5BE;
 	border-radius: 8px;
-	border: 2px black;
+	border: 8px black;
 }
 .head {
 	background-color: #43A5BE;
@@ -253,5 +253,5 @@ fieldset {
 	text-align: center;
 }
 .int {
-	background-color: #66cc00;
+	background-color: #33ccff;
 }
