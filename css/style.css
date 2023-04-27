@@ -27,7 +27,6 @@ nav {
   padding: 0; 
   background-color: white;
 }
-
 .navigation li {
   display: inline-block; 
 }
@@ -243,4 +242,7 @@ fieldset {
 .head h1{
 	text-align: center;
 	font-size: 150%;
+}
+.text {
+	background-color: white;
 }
