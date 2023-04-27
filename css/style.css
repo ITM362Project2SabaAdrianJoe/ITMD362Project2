@@ -137,6 +137,6 @@ footer a:hover {
 
 
 body, h1 {
-  font-family: 'Merriweather', serif;
+  font-family: 'Merriweather', 'Century Gothic', 'CenturyGothic', 'AppleGothic', sans-serif;
   background: rgba(80, 80, 80, 0.3);
 }
