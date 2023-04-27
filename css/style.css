@@ -148,11 +148,7 @@ body, h1 {
   background: rgba(80, 80, 80, 0.3);
 }
 
-@media only screen and (max-width: 720px) {
-  
-}
-
-@media only screen and (max-width: 2160px) {
+@media only screen and (max-width: 1280px) {
   
 }
 
