@@ -123,6 +123,8 @@ footer {
   justify-content: flex-end; 
   background-color: #f2f2f2; 
   padding: 20px;
+  float: bottom;
+  margin-top: auto;
 }
 
 footer a {
@@ -135,6 +137,11 @@ footer a:hover {
   color: #999;
 }
 
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
 
 body, h1 {
   font-family: 'Merriweather', 'Century Gothic', 'CenturyGothic', 'AppleGothic', sans-serif;
