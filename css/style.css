@@ -12,10 +12,8 @@
 
 header {
   background-color: #fff; 
-  padding: 20px;
   border-bottom: 1px solid #ccc; 
 }
-
 
 nav {
   display: flex;
@@ -149,7 +147,58 @@ body, h1 {
 }
 
 @media only screen and (max-width: 1280px) {
-  
+  header {
+    margin: 5%;
+    padding: 15px;
+    justify-self: center;
+    margin-bottom: 2%;
+  }
+
+  header a {
+    margin: 0;
+    padding: 0;
+    justify-self: center;
+  }
+
+  header a img {
+    justify-self: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  h1 {
+    font-size: 150%;
+    padding: 15px;
+    margin: 5%;
+    height: 20%;
+    margin-bottom: 0;
+  }
+
+  nav {
+    margin: 5%;
+    padding: 15px;
+    margin-top: 0;
+    padding-top: 5px;
+  }
+
+  nav a {
+    justify-self: left;
+    display: flex;
+    flex-direction: column;
+    font-size: 115%;
+  }
+
+  p {
+    margin: 5%;
+    padding: 15px;
+    font-size: 110%;
+    font-weight: 200;
+  }
+
+  .slideshow-container {
+    margin: 2%;
+    padding: 3px;
+  }
 }
 
 @media only screen and (min-width: 1280px) {
