@@ -252,10 +252,13 @@ fieldset {
 	background-color: white;
 	text-align: center;
 }
-.int {
-	background-color: #33ccff;
-}
 .con {
 	background-color: #33ccff;
     text-decoration: underline;
+	text-align: center;
+	font-size: 120%;
+}
+.int {
+	background-color: #99cc99;
+	text-align: center;
 }
