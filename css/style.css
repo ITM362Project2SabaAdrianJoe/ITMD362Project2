@@ -19,6 +19,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center; 
+
 }
 
 .navigation {
@@ -141,7 +142,7 @@ body {
   flex-direction: column;
 }
 
-body, h1 {
+body, h1, h2 {
   font-family: 'Merriweather', 'Century Gothic', 'CenturyGothic', 'AppleGothic', sans-serif;
   background: rgba(80, 80, 80, 0.3);
 }
@@ -261,4 +262,3 @@ fieldset {
 .int {
 	background-color: #99cc99;
 	text-align: center;
-}
