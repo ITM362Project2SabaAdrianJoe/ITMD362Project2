@@ -246,3 +246,10 @@ fieldset {
 .text {
 	background-color: white;
 }
+.why {
+	background-color: white;
+	text-align: center;
+}
+.int {
+	background-color: #66cc00;
+}
