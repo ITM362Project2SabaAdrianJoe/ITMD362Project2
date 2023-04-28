@@ -25,8 +25,8 @@ nav {
   list-style: none; 
   margin: 0; 
   padding: 0; 
-  background-color: white;
 }
+
 .navigation li {
   display: inline-block; 
 }
@@ -117,22 +117,39 @@ nav {
 }
 
 footer {
-  display: flex;
-  justify-content: flex-end; 
+  display: block;
   background-color: #f2f2f2; 
   padding: 20px;
-  float: bottom;
   margin-top: auto;
 }
 
 footer a {
+  display: inline-block;
   margin-left: 20px; 
   color: #333;
   text-decoration: none; 
 }
 
+footer li a {
+  display: block;
+  margin: 1%;
+  padding-bottom: 8px;
+}
+
+#top_link {
+  margin-top: 6px;
+}
+
+#bottom_link {
+  margin-bottom: 12px;
+}
+
 footer a:hover {
   color: #999;
+}
+
+footer h2 {
+  display: block;
 }
 
 body {
@@ -166,7 +183,7 @@ body, h1, h2 {
     padding: 0;
   }
 
-  h1 {
+  h1, h1 strong {
     font-size: 150%;
     padding: 15px;
     margin: 5%;
@@ -188,6 +205,14 @@ body, h1, h2 {
     font-size: 115%;
   }
 
+  h2 {
+    font-size: 130%;
+    padding: 8px;
+    margin: 5%;
+    height: 20%;
+    margin-bottom: 0;
+  }
+
   p {
     margin: 5%;
     padding: 15px;
@@ -198,6 +223,10 @@ body, h1, h2 {
   .slideshow-container {
     margin: 2%;
     padding: 3px;
+  }
+
+  iframe {
+    align-self: center;
   }
 }
 
@@ -223,13 +252,11 @@ body, h1, h2 {
     padding: 0;
   }
 
-  h1 {
-    font-size: 225%;
+  h1, h1 strong {
+    font-size: 190%;
     padding: 15px;
     margin: 5%;
     margin-bottom: 0;
-    margin-right: 0;
-    padding-right: 0;
     margin-top: 0;
     border-radius: 20px;
   }
@@ -272,6 +299,10 @@ body, h1, h2 {
     margin: 10px;
   }
 
+  iframe {
+    align-self: center;
+  }
+
 }
 
 .write {
@@ -279,9 +310,11 @@ body, h1, h2 {
 	text-align: center;
 	margin-bottom: 5px;
 }
+
 form {
 	margin: auto;
 }
+
 input[type="text"] {
   width: 50%;
   padding: 10px;
@@ -290,10 +323,12 @@ input[type="text"] {
   border-radius: 5px;
   box-shadow: 0px 2px 4px rgba(0,0,0,0.75);
 }
+
 input[type="submit"]:hover {
   background-color: lightblue;
   cursor: pointer;
 }
+
 input[type="submit"] {
   width: 60%;
   padding: 20px;
@@ -303,32 +338,23 @@ input[type="submit"] {
   border-radius: 8px;
   border: 2px solid gray;
 }
+
 fieldset {
 	background-color: #43A5BE;
 	border-radius: 8px;
 	border: 8px black;
 }
-.head {
-	background-color: #43A5BE;
-}
-.head h1{
-	text-align: center;
-	font-size: 150%;
-}
-.text {
-	background-color: white;
-}
+
 .why {
-	background-color: white;
 	text-align: center;
+  margin: 10px;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
 }
-.con {
-	background-color: #33ccff;
-    text-decoration: underline;
-	text-align: center;
-	font-size: 120%;
-}
+
 .int {
 	background-color: #99cc99;
 	text-align: center;
+  padding: 12px;
 }
