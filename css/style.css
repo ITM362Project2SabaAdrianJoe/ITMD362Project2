@@ -334,7 +334,7 @@ body, h1, h2 {
     align-self: center;
   }
 
-  #first_second {
+  .first_second {
     text-align: center;
     display: flex;
     justify-content: center;
