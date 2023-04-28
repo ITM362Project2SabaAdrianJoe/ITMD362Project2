@@ -163,7 +163,7 @@ body, h1, h2 {
   background: rgba(80, 80, 80, 0.3);
 }
 
-@media only screen and (max-width: 1079px) {
+@media only screen and (max-width: 876px) {
   header {
     margin: 5%;
     padding: 15px;
@@ -195,13 +195,13 @@ body, h1, h2 {
     padding: 15px;
     margin-top: 0;
     padding-top: 5px;
+    font-size: xx-small;
   }
 
   nav a {
     justify-self: left;
     display: flex;
     flex-direction: column;
-    font-size: 115%;
   }
 
   h2 {
