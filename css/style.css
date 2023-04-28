@@ -228,6 +228,40 @@ body, h1, h2 {
   iframe {
     align-self: center;
   }
+
+  form {
+    width: 90%;
+  }
+  
+  label{
+    font-weight: 400;
+    font-size: 115%;
+    justify-self: left;
+    align-self: left;
+  }
+
+  .write, input {
+    width: 90%;
+  }
+
+  input[type="submit"] {
+    width: 90%;
+    padding: 20px;
+    margin-top: 10px;
+    font-size: 15px;
+    background-color: white;
+    border-radius: 8px;
+    border: 2px solid gray;
+  }
+  
+  input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    font-size: 15px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.75);
+  }
 }
 
 @media only screen and (min-width: 1080px) {
@@ -311,6 +345,25 @@ body, h1, h2 {
     font-size: 120%;
     margin: 10px;
   }
+
+  input[type="submit"] {
+    width: 60%;
+    padding: 20px;
+    margin-top: 10px;
+    font-size: 15px;
+    background-color: white;
+    border-radius: 8px;
+    border: 2px solid gray;
+  }
+
+  input[type="text"] {
+    width: 50%;
+    padding: 10px;
+    font-size: 15px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.75);
+  }
 }
 
 .write {
@@ -323,28 +376,9 @@ form {
 	margin: auto;
 }
 
-input[type="text"] {
-  width: 50%;
-  padding: 10px;
-  font-size: 15px;
-  border: 2px solid gray;
-  border-radius: 5px;
-  box-shadow: 0px 2px 4px rgba(0,0,0,0.75);
-}
-
 input[type="submit"]:hover {
   background-color: lightblue;
   cursor: pointer;
-}
-
-input[type="submit"] {
-  width: 60%;
-  padding: 20px;
-  margin-top: 10px;
-  font-size: 15px;
-  background-color: white;
-  border-radius: 8px;
-  border: 2px solid gray;
 }
 
 fieldset {
