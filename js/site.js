@@ -3,7 +3,7 @@ let slideIndex = 1;
 
 window.onload = function() {
   showSlides(slideIndex);
-}
+};
 
 function showSlides(n) {
   let i;
